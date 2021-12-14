@@ -54,8 +54,8 @@ export default class Shelter implements IShelter {
         } else {
           resolve(dirtyCages);
         }
-      });
-    }, 1000);
+      }, 1000);
+    });
   }
 
   public findCageByID(id: number): ICage | null {
